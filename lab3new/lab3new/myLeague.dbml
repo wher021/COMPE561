@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="KHL_base" Class="myLeagueDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\KHL_base.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="lab3new.Properties.Settings" SettingsPropertyName="KHL_baseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.game_tbl" Member="game_tbls">
+    <Type Name="game_tbl">
+      <Column Name="game_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="home_team_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="away_team_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="score_home" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="score_away" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="game_tbl_player_stats_tbl" Member="player_stats_tbls" ThisKey="game_ID" OtherKey="game_ID" Type="player_stats_tbl" />
+      <Association Name="team_tbl_game_tbl" Member="team_tbl" ThisKey="away_team_ID" OtherKey="team_ID" Type="team_tbl" IsForeignKey="true" />
+      <Association Name="team_tbl_game_tbl1" Member="team_tbl1" ThisKey="home_team_ID" OtherKey="team_ID" Type="team_tbl" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.team_tbl" Member="team_tbls">
+    <Type Name="team_tbl">
+      <Column Name="team_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="location" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="team_tbl_game_tbl" Member="game_tbls" ThisKey="team_ID" OtherKey="away_team_ID" Type="game_tbl" />
+      <Association Name="team_tbl_game_tbl1" Member="game_tbls1" ThisKey="team_ID" OtherKey="home_team_ID" Type="game_tbl" />
+      <Association Name="team_tbl_player_tbl" Member="player_tbls" ThisKey="team_ID" OtherKey="current_team_ID" Type="player_tbl" />
+    </Type>
+  </Table>
+  <Table Name="dbo.player_stats_tbl" Member="player_stats_tbls">
+    <Type Name="player_stats_tbl">
+      <Column Name="player_stats_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="player_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="game_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="goals" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="penalties" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="assists" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[min played]" Member="min_played" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="game_tbl_player_stats_tbl" Member="game_tbl" ThisKey="game_ID" OtherKey="game_ID" Type="game_tbl" IsForeignKey="true" />
+      <Association Name="player_tbl_player_stats_tbl" Member="player_tbl" ThisKey="player_ID" OtherKey="player_ID" Type="player_tbl" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.player_tbl" Member="player_tbls">
+    <Type Name="player_tbl">
+      <Column Name="player_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="firstname" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="lastname" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="age" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="height" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="weight" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="salary" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="current_team_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="retired" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="player_tbl_player_stats_tbl" Member="player_stats_tbls" ThisKey="player_ID" OtherKey="player_ID" Type="player_stats_tbl" />
+      <Association Name="team_tbl_player_tbl" Member="team_tbl" ThisKey="current_team_ID" OtherKey="team_ID" Type="team_tbl" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

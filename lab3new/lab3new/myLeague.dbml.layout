@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="myLeague">
+  <DataContextMoniker Name="/myLeagueDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9572e843-f2cf-4351-aabd-4794f6d2e436" absoluteBounds="6.375, 2.5, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/myLeagueDataContext/game_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="debae144-be60-4485-b602-4f51ad4095f6" absoluteBounds="6.3900000000000006, 2.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="434316ac-806c-4db1-b5dc-1ffc4fc596fd" absoluteBounds="2.5, 2.5, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/myLeagueDataContext/team_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59ad0410-5e1b-49f5-aae9-be2c58929d38" absoluteBounds="2.515, 2.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e987b37-e93b-4e53-a320-6d0c2c9c5777" absoluteBounds="5.5, 5.375, 2, 2.155499674479167">
+      <DataClassMoniker Name="/myLeagueDataContext/player_stats_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97057972-c372-4d30-a56e-0304fa7215f8" absoluteBounds="5.515, 5.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 3.19314697265625); (6.375 : 3.19314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_game_tbl" />
+      <nodes>
+        <classShapeMoniker Id="434316ac-806c-4db1-b5dc-1ffc4fc596fd" />
+        <classShapeMoniker Id="9572e843-f2cf-4351-aabd-4794f6d2e436" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 2.78407348632812); (6.375 : 2.78407348632812)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_game_tbl1" />
+      <nodes>
+        <classShapeMoniker Id="434316ac-806c-4db1-b5dc-1ffc4fc596fd" />
+        <classShapeMoniker Id="9572e843-f2cf-4351-aabd-4794f6d2e436" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.9375 : 4.4631982421875); (6.9375 : 5.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/myLeagueDataContext/game_tbl/game_tbl_player_stats_tbl" />
+      <nodes>
+        <classShapeMoniker Id="9572e843-f2cf-4351-aabd-4794f6d2e436" />
+        <classShapeMoniker Id="6e987b37-e93b-4e53-a320-6d0c2c9c5777" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6b27113f-35db-497e-9e22-7c1ba952a7ae" absoluteBounds="1.375, 4.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/myLeagueDataContext/player_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cafbf400-3413-4e3e-8c3e-a835d9f39219" absoluteBounds="1.3900000000000001, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 6.33255126953125); (5.5 : 6.33255126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/myLeagueDataContext/player_tbl/player_tbl_player_stats_tbl" />
+      <nodes>
+        <classShapeMoniker Id="6b27113f-35db-497e-9e22-7c1ba952a7ae" />
+        <classShapeMoniker Id="6e987b37-e93b-4e53-a320-6d0c2c9c5777" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.9375 : 3.8862939453125); (2.9375 : 4.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_player_tbl" />
+      <nodes>
+        <classShapeMoniker Id="434316ac-806c-4db1-b5dc-1ffc4fc596fd" />
+        <classShapeMoniker Id="6b27113f-35db-497e-9e22-7c1ba952a7ae" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

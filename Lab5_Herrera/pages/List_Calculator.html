@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel = "stylesheet" type = "text/css" href = "../tablestyle.css" />
+    <script src ="List_Calculator.js"></script>
+</head>
+<body>
+    <h1>List Calculator</h1>
+    <br />
+    <a href="../Calculator_Home.html">Home</a>
+    <br />
+    <br />
+    <p>for every value: enter desired value and hit enter,afterwards when you are done press show and then sort, to restart with a new list enter q and hit enter</p>
+    <br />
+        <input type="text" onkeydown="add( arguments[0] )" id="num" />
+        <br />
+            <input type="button" onclick="show();" value="show" style="width:70px;"  />
+        <br />
+           <input type="button" onclick="sort();" value="sort" style="width:70px;"  />
+        <br />
+        <div id="container"></div>
+        <br />
+        <input type="text" id="min_text" />min
+        <br />
+        <input type="text" id="max_text" />max
+         <br />
+        <input type="text" id="avarage_text" />avarage
+
+</body>
+</html>

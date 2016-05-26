@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="myLeague">
+  <DataContextMoniker Name="/myLeagueDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6e987b37-e93b-4e53-a320-6d0c2c9c5777" absoluteBounds="7.125, 3.625, 2, 2.155499674479167">
+      <DataClassMoniker Name="/myLeagueDataContext/player_stats_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97057972-c372-4d30-a56e-0304fa7215f8" absoluteBounds="7.1400000000000006, 4.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fed63018-53dc-42d6-a575-39ad38497bd2" absoluteBounds="4.125, 4.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/myLeagueDataContext/player_team_history" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eee50de3-20aa-46e8-bb8e-47f93b48fa41" absoluteBounds="4.14, 4.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="830eb4e6-c322-4b80-b06a-2642e68a3739" absoluteBounds="0.5, 2.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/myLeagueDataContext/player_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="270860c2-8414-44a7-af78-6ac9d9a4d83a" absoluteBounds="0.51499999999999968, 3.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.84375); (2.79166666666667 : 3.84375 : JumpStart); (2.95833333333333 : 3.84375 : JumpEnd); (3.07291666666667 : 3.84375 : JumpStart); (3.23958333333333 : 3.84375 : JumpEnd); (7.125 : 3.84375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/myLeagueDataContext/player_tbl/player_tbl_player_stats_tbl" />
+      <nodes>
+        <classShapeMoniker Id="830eb4e6-c322-4b80-b06a-2642e68a3739" />
+        <classShapeMoniker Id="6e987b37-e93b-4e53-a320-6d0c2c9c5777" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 3.71715018136161); (2.875 : 3.71715018136161); (2.875 : 5.13041793619792); (3.07291666666667 : 5.13041793619792 : JumpStart); (3.23958333333333 : 5.13041793619792 : JumpEnd); (4.125 : 5.13041793619792)]" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/myLeagueDataContext/player_tbl/player_tbl_player_team_history" />
+      <nodes>
+        <classShapeMoniker Id="830eb4e6-c322-4b80-b06a-2642e68a3739" />
+        <classShapeMoniker Id="fed63018-53dc-42d6-a575-39ad38497bd2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dd2ab72c-3427-4365-b9e4-ffc9e1e3b39b" absoluteBounds="1.75, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/myLeagueDataContext/team_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8913cc72-be3c-47da-b78f-7afa886c176f" absoluteBounds="1.7649999999999997, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.15625 : 1.8862939453125); (3.15625 : 5.3638330078125); (4.019503125 : 5.3638330078125); (4.019503125 : 5.34374897618448); (4.125 : 5.34374897618448)]" manuallyRouted="true" fixedFrom="Algorithm" fixedTo="Caller">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_player_team_history" />
+      <nodes>
+        <classShapeMoniker Id="dd2ab72c-3427-4365-b9e4-ffc9e1e3b39b" />
+        <classShapeMoniker Id="fed63018-53dc-42d6-a575-39ad38497bd2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 1.29637121252111); (0.291666666666667 : 1.29637121252111); (0.291666666666667 : 2.35405250013197); (0.166666666666667 : 2.35405250013197); (0.166666666666667 : 5.03880219959077); (0.5 : 5.03880219959077)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_player_tbl" />
+      <nodes>
+        <classShapeMoniker Id="dd2ab72c-3427-4365-b9e4-ffc9e1e3b39b" />
+        <classShapeMoniker Id="830eb4e6-c322-4b80-b06a-2642e68a3739" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6654f3af-2497-4b36-9506-010f586c8c96" absoluteBounds="5.75, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/myLeagueDataContext/game_tbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca6f8d68-5514-49ff-8245-ab898017ea0f" absoluteBounds="5.765, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.75 : 1.2927242963742); (9.5 : 1.2927242963742); (9.5 : 4.84408330411993); (9.125 : 4.84408330411993)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/myLeagueDataContext/game_tbl/game_tbl_player_stats_tbl" />
+      <nodes>
+        <classShapeMoniker Id="6654f3af-2497-4b36-9506-010f586c8c96" />
+        <classShapeMoniker Id="6e987b37-e93b-4e53-a320-6d0c2c9c5777" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.75 : 1.28943176782432); (4.36875 : 1.28943176782432); (4.36875 : 1.4720530253709); (5.75 : 1.4720530253709)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_game_tbl" />
+      <nodes>
+        <classShapeMoniker Id="dd2ab72c-3427-4365-b9e4-ffc9e1e3b39b" />
+        <classShapeMoniker Id="6654f3af-2497-4b36-9506-010f586c8c96" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 1.30226974051339); (1.375 : 1.30226974051339); (1.375 : 2.2612939453125); (3.07291666666667 : 2.2612939453125 : JumpStart); (3.23958333333333 : 2.2612939453125 : JumpEnd); (5.25 : 2.2612939453125); (5.25 : 1.69196781372473); (5.75 : 1.69196781372473)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/myLeagueDataContext/team_tbl/team_tbl_game_tbl1" />
+      <nodes>
+        <classShapeMoniker Id="dd2ab72c-3427-4365-b9e4-ffc9e1e3b39b" />
+        <classShapeMoniker Id="6654f3af-2497-4b36-9506-010f586c8c96" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

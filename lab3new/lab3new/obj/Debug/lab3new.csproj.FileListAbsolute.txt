@@ -1,0 +1,15 @@
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\bin\Debug\lab3new.exe.config
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\bin\Debug\KHL_base.mdf
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\bin\Debug\KHL_base_log.ldf
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\bin\Debug\lab3new.exe
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\bin\Debug\lab3new.pdb
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.csprojResolveAssemblyReference.cache
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.game_frm.resources
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.MainFrm.resources
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.teamFrm.resources
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.playerFrm.resources
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.player_stats_frm.resources
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.Properties.Resources.resources
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.csproj.GenerateResource.Cache
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.exe
+C:\Users\Willy\Desktop\myProject\lab3new\lab3new\obj\Debug\lab3new.pdb

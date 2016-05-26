@@ -1,0 +1,54 @@
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe.config
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Form1.resources
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Properties.Resources.resources
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csproj.GenerateResource.Cache
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\obj\Debug\DesktopClient.exe
+c:\users\willy2\documents\visual studio 2012\Projects\DesktopClient\DesktopClient\obj\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe.config
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\obj\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Form1.resources
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Properties.Resources.resources
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Willy\Desktop\DesktopClient\DesktopClient\obj\Debug\DesktopClient.pdb
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe.config
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.exe
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.pdb
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Form1.resources
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Properties.Resources.resources
+C:\Users\Willy2\Desktop\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe.config
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Form1.resources
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Properties.Resources.resources
+C:\Users\Willy\Desktop\Monday\Monday\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe.config
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\obj\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\obj\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Form1.resources
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Properties.Resources.resources
+C:\Users\Willy\Desktop\Final561\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe.config
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\obj\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\obj\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\bin\Debug\DesktopClient.exe
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\bin\Debug\DesktopClient.pdb
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Form1.resources
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\obj\Debug\DesktopClient.Properties.Resources.resources
+C:\Users\Willy\Desktop\Lab7_Herrera\DesktopClient\DesktopClient\obj\Debug\DesktopClient.csproj.GenerateResource.Cache

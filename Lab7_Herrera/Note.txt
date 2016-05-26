@@ -1,0 +1,2 @@
+Sometimes the adress of the Service has to be reissued to the desktop and web application, if 
+a different computer is used.
